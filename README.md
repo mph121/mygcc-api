@@ -1,7 +1,6 @@
 # Unofficial myGCC API
 
-[![Build Status](https://img.shields.io/travis/davidcorbin/mygcc-api.svg)](https://travis-ci.org/davidcorbin/mygcc-api)
-[![Dependency Status](https://www.versioneye.com/user/projects/5a2b21e80fb24f469e308dda/badge.svg?style=flat)](https://www.versioneye.com/user/projects/5a2b21e80fb24f469e308dda)
+[![Build Status](https://img.shields.io/travis/mph121/mygcc-api.svg)](https://travis-ci.org/mph121/mygcc-api)
 
 REST API to interface with the myGCC website.
 
@@ -11,6 +10,7 @@ See [API.md](API.md) for examples and a reference.
 
 ### Packaging
 ```mvn clean package```
+```java -jar target/mygcc-api-jar-with-dependencies.jar```
 
 If tests are failing or skipping make sure you have four environmental variables set:
 - `enckey` A 16 character string for encrypting the tokens.
