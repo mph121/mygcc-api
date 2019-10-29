@@ -6,9 +6,7 @@ jdk:
 dist: bionic
 
 script:
-  - mvn install
-  - mvn test
-  - mvn cobertura:cobertura
+  - mvn install -DskipTests
 
 notifications:
     slack: grovecitycollege:xnpecXiJ6qMfnHdFEzxkSUeE
