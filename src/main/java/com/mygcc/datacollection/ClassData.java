@@ -20,12 +20,12 @@ public abstract class ClassData extends MyGCCDataCollection {
     /**
      * Current Year.
      */
-    public static final String CURRENT_YEAR = "2018";
+    public static final String CURRENT_YEAR = "2019";
 
     /**
      * Current Year (according to MyGCC).
      */
-    public static final String MYGCC_YEAR = "2018";
+    public static final String MYGCC_YEAR = "2019";
 
     /**
      * The expected number of course code sections.

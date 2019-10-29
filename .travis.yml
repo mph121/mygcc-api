@@ -1,6 +1,9 @@
 language: java
 jdk:
-  - oraclejdk8
+  - openjdk11
+  - oraclejdk11
+
+dist: bionic
 
 script:
   - mvn install
